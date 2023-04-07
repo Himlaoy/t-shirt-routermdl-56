@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Cusin = () => {
+const Special = () => {
     return (
         <div>
+            <h2>Special</h2>
             
         </div>
     );
 };
 
-export default Cusin;
+export default Special;

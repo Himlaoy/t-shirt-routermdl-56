@@ -1,0 +1,23 @@
+.components-head div{
+    border: 2px solid forestgreen;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.components-head{
+    border: 2px solid forestgreen;
+    width: fit-content;
+}
+
+.dive div{
+    display: flex;
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    
+}
