@@ -1,0 +1,15 @@
+img{
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.T-shirt-container{
+    margin: auto;
+    border: 2px solid khaki;
+    border-radius: 10px;
+    width: 160px;
+    
+    padding: 10px;
+    
+}

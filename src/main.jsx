@@ -7,8 +7,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Main from './component/layout/Main';
-import Home from './component/Home';
+import Home from './component/Home/Home';
 import Review from './component/Review/Review';
+import GrandPa from './component/GrandPa/GrandPa';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,11 @@ const router = createBrowserRouter([
       },
       {
         path:'review',
-        element: <Review></Review>
+        element: <Review></Review>,
+      },
+      {
+        path:'grandPa',
+        element:<GrandPa></GrandPa>
       }
     ]
   }
